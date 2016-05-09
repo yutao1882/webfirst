@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class Browsers {
+public class Browsers { 
 
 	public WebDriver driver = null;
 	private FirefoxProfile firefoxProfile = null;

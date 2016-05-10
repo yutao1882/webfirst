@@ -1,4 +1,4 @@
-package M.M;
+package com.yt;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,8 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Browsers { 
-//aaaggghhhdd
-	//asdf
+
 	public WebDriver driver = null;
 	private FirefoxProfile firefoxProfile = null;
 	private static DesiredCapabilities caps = null;

@@ -1,4 +1,4 @@
-package M.M;
+package com.yt;
 
 public class Locator {
 

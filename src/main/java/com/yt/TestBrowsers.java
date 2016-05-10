@@ -1,6 +1,5 @@
 package com.yt;
 
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -15,20 +14,18 @@ public class TestBrowsers {
 		Browsers browsers = new Browsers(BrowsersType.chrome);
 		driver = browsers.driver;
 		System.out.println("====================");
-
 	}
 
 	@Test
 	public void start() throws InterruptedException {
 		System.out.println("====================");
-//		driver.get("https://yuntest.haihaigame.com/login");
-		
-		Thread.sleep(5000);
+		// driver.get("https://yuntest.haihaigame.com/login");
 
+		Thread.sleep(5000);
 	}
-	
+
 	@AfterClass
-	public void afterClass(){
+	public void afterClass() {
 		driver.quit();
 	}
 

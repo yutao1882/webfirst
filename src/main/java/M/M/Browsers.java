@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Browsers { 
 //aaaggghhhdd
+	//asdf
 	public WebDriver driver = null;
 	private FirefoxProfile firefoxProfile = null;
 	private static DesiredCapabilities caps = null;

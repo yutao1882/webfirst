@@ -2,24 +2,35 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15380" started-at="2016-05-05T09:38:33Z" finished-at="2016-05-05T09:38:48Z">
+  <suite name="Default suite" duration-ms="2260" started-at="2016-05-16T09:39:54Z" finished-at="2016-05-16T09:39:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15380" started-at="2016-05-05T09:38:33Z" finished-at="2016-05-05T09:38:48Z">
-      <class name="M.M.TestBrowsers">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:M.M.TestBrowsers@7c16905e]" name="beforeClass" is-config="true" duration-ms="8396" started-at="2016-05-05T17:38:33Z" finished-at="2016-05-05T17:38:41Z">
+    <test name="Default test" duration-ms="2260" started-at="2016-05-16T09:39:54Z" finished-at="2016-05-16T09:39:56Z">
+      <class name="com.yt.TestBrowsers">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.yt.TestBrowsers@28d25987]" name="beforeClass" is-config="true" duration-ms="15" started-at="2016-05-16T17:39:54Z" finished-at="2016-05-16T17:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="start()[pri:0, instance:M.M.TestBrowsers@7c16905e]" name="start" duration-ms="5011" started-at="2016-05-05T17:38:41Z" finished-at="2016-05-05T17:38:46Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.yt.TestBrowsers@28d25987]" name="start" duration-ms="1015" started-at="2016-05-16T17:39:54Z" finished-at="2016-05-16T17:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:M.M.TestBrowsers@7c16905e]" name="afterClass" is-config="true" duration-ms="1932" started-at="2016-05-05T17:38:46Z" finished-at="2016-05-05T17:38:48Z">
+        <test-method status="PASS" signature="import2TestLink(org.testng.ITestResult)[pri:0, instance:com.yt.TestBrowsers@28d25987]" name="import2TestLink" is-config="true" duration-ms="1198" started-at="2016-05-16T17:39:55Z" finished-at="2016-05-16T17:39:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=start status=SUCCESS method=TestBrowsers.start()[pri:0, instance:com.yt.TestBrowsers@28d25987] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- import2TestLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.yt.TestBrowsers@28d25987]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-16T17:39:56Z" finished-at="2016-05-16T17:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- M.M.TestBrowsers -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.yt.TestBrowsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

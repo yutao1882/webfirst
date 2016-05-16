@@ -51,9 +51,7 @@ public class Browsers {
 			driver.manage().window().maximize();
 			break;
 		case chrome:
-			// System.setProperty("webdriver.chrome.driver", porjectPath + "");
-			System.setProperty("webdriver.chrome.driver",
-					"D:\\myWorkspace\\M\\tools\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", porjectPath + "\\tools\\chromedriver.exe");
 			caps = DesiredCapabilities.chrome();
 			caps.setCapability("chrome.switches",
 					Arrays.asList("--start-maximized"));

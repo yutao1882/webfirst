@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="M.M.TestBrowsers">
+      <class name="com.yt.TestBrowsers">
         <methods>
-          <include name="start"/>
           <include name="beforeClass"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- M.M.TestBrowsers -->
+      </class> <!-- com.yt.TestBrowsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

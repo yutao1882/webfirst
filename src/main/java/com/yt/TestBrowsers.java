@@ -36,11 +36,12 @@ public class TestBrowsers {
 
 	@Test
 	public void start() throws InterruptedException {
-//		System.out.println("==========@Test==========");
+		System.out.println("==========@Test==========");
 		caseName = "case001";
 //		driver.get("https://yuntest.haihaigame.com/login");
 		Assert.assertEquals(true, true);
 		Thread.sleep(1000);
+		
 	}
 
 	@AfterClass
@@ -50,9 +51,9 @@ public class TestBrowsers {
 	
 	@AfterMethod
 	public void import2TestLink(ITestResult result) throws Exception {  	
-    	testlinkapi.getAPI();
-    	testlinkapi.getTestCases();
-    	testlinkapi.executeTestCase(caseName,result.getStatus(),"");
+//    	testlinkapi.getAPI();
+//    	testlinkapi.getTestCases();
+//    	testlinkapi.executeTestCase(caseName,result.getStatus(),"");
 	}
 
 }

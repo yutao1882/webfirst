@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="M.M.TestBrowsers"/>
+      <class name="com.yt.TestBrowsers"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -36,7 +36,7 @@ public class TestBrowsers {
 
 	@Test
 	public void start() throws InterruptedException {
-		System.out.println("==========@Test==========");
+		System.out.println("==========@Test===TestBrowsers=======");
 		caseName = "case001";
 //		driver.get("https://yuntest.haihaigame.com/login");
 		Assert.assertEquals(true, true);

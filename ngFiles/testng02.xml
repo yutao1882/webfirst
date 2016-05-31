@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.yt.TestBrowsers"/>
+      <class name="com.yt.TestNGForce"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\myWorkspace\webTestFirst\testng.xml</span>
+                    <span>D:\myWorkspace\webTestFirst\ngFiles\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,26 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yt.TestBrowsers" hash-for-method="start">start</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yt.TestNGSecond" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yt.TestNGThird" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yt.TestNGSecond" hash-for-method="test02">test02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.yt.TestNGThird" hash-for-method="test02">test02</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,10 +152,54 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yt.TestNGSecond</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test02">
+                  </a> <!-- test02 -->
+                  <span class="method-name">test02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yt.TestNGThird</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test02">
+                  </a> <!-- test02 -->
+                  <span class="method-name">test02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\myWorkspace\webTestFirst\testng.xml</span>
+            <span class="header-content">D:\myWorkspace\webTestFirst\ngFiles\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,8 +209,14 @@
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.yt.TestBrowsers&quot;/&gt;
+      &lt;class name=&quot;com.yt.TestNGSecond&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yt.TestNGThird&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,7 +228,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,11 +257,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'start')
 data.setCell(0, 2, 'com.yt.TestBrowsers')
-data.setCell(0, 3, 1014);
+data.setCell(0, 3, 1009);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test01')
+data.setCell(1, 2, 'com.yt.TestNGSecond')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test01')
+data.setCell(2, 2, 'com.yt.TestNGThird')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test02')
+data.setCell(3, 2, 'com.yt.TestNGSecond')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test02')
+data.setCell(4, 2, 'com.yt.TestNGThird')
+data.setCell(4, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -226,16 +315,38 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">start</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">import2TestLink([TestResult name=start status=SUCCESS method=TestBrowsers.start()[pri:0, instance:com.yt.TestBrowser...)</span>
-                <span class="method-start">1051 ms</span>
+                <span class="method-start">1047 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">1057 ms</span>
+                <span class="method-start">1048 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yt.TestNGSecond</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test01</span>
+                <span class="method-start">1051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test02</span>
+                <span class="method-start">1058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yt.TestNGThird</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test01</span>
+                <span class="method-start">1100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test02</span>
+                <span class="method-start">1104 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
